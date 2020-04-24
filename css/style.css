@@ -72,6 +72,18 @@ body {
     padding-top: 10px;
 }
 
+div#about.section {
+    background-color: #d5d5d5;
+}
+
+div#portfolio.section {
+    background-color: #d5d5d5;
+}
+
+div#stats.statsSection.section {
+    background-color: #d5d5d5;
+}
+
 .aboutImage {
     max-width: 100%;
     border-radius: 5px;
@@ -79,7 +91,7 @@ body {
 
 .skillsSection,
 .contactSection {
-    background-color: #2c2c54;
+    background-color: #233237;
     color: #fff;
 }
 
@@ -331,7 +343,7 @@ body {
 }
 
 .copyrightSection {
-    background-color: #000;
+    background-color: #233237;
     color: #fff;
     padding: 30px 5px;
 }
@@ -341,7 +353,7 @@ body {
 }
 
 #navigation {
-    background-color: #212529;
+    background-color: #233237;
     padding: 5px 10px;
     z-index: 100;
     width: 100%;
@@ -360,11 +372,11 @@ body {
 }
 
 .navbar-brand:hover {
-    color: #4717f6;
+    color: #f19f4d;
 }
 
 #navigation li a:hover {
-    color: #4717f6;;
+    color: #f19f4d;
 }
 
 .navbar-toggler-icon {
