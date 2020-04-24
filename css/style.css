@@ -352,8 +352,55 @@ div#stats.statsSection.section {
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+  
+.navbar {
+    transition: all 0.4s;
+}
+
+.navbar .nav-link {
+    color: #fff;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+.fa {
+    color: white;
+}
+
+/* Change navbar styling on scroll */
+.navbar.active {
+    background: #fff;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    color: #555;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: #555;
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color: #555;
+}
+
+
+/* 
 #navigation {
-    background-color: #233237;
     padding: 5px 10px;
     z-index: 100;
     width: 100%;
@@ -387,7 +434,7 @@ div#stats.statsSection.section {
 .fixedNav #navigation {
     position: fixed;
     top: 0;
-}
+} */
 
 .loader {
     width: 100%;
