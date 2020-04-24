@@ -343,7 +343,7 @@ div#stats.statsSection.section {
 }
 
 .copyrightSection {
-    background-color: #233237;
+    background: #233237;
     color: #fff;
     padding: 30px 5px;
 }
