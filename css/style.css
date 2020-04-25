@@ -278,7 +278,7 @@ div#stats.statsSection.section {
 .items a {
     width: 40px;
     height: 40px;
-    background-color: #2c2c54;
+    background-color: #233237;
     position: relative;
     display: inline-block;
 
@@ -412,44 +412,6 @@ html {
 .navbar.active .navbar-brand {
     color: #555;
 }
-
-
-/* 
-#navigation {
-    padding: 5px 10px;
-    z-index: 100;
-    width: 100%;
-}
-
-#navigation li {
-    padding: 0 10px;
-}
-
-#navigation li a{
-    color: #fff;
-}
-
-.navbar-brand {
-    color: #fff;
-}
-
-.navbar-brand:hover {
-    color: #f19f4d;
-}
-
-#navigation li a:hover {
-    color: #f19f4d;
-}
-
-.navbar-toggler-icon {
-    background: url(../img/icons/menu.png);
-    background-size: 100%;
-}
-
-.fixedNav #navigation {
-    position: fixed;
-    top: 0;
-} */
 
 .loader {
     width: 100%;
