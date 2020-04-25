@@ -3,11 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "gh-pages": "^2.2.0",
-    "npm": "^6.14.4"
-  },
-  "devDependencies": {},
   "scripts": {
     "deploy": "gh-pages -d dist"
   },
@@ -21,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/rjaguero00/port_temp/issues"
   },
-  "homepage": "https://github.com/rjaguero00/port_temp#readme"
+  "homepage": "https://github.com/rjaguero00/port_temp#readme",
+  "dependencies": {
+    "gh-pages": "^2.2.0",
+    "npm": "^6.14.4"
+  }
 }
