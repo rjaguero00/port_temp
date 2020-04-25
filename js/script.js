@@ -125,6 +125,7 @@ $(document).ready(function () {
         $("html, body").animate({ scrollTop: targetPosition - 50 }, "slow");
     });
 
+
     // const nav = $("#navigation");
     // const navTop = nav.offset().top;
 

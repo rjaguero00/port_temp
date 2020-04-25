@@ -355,7 +355,7 @@ div#stats.statsSection.section {
 html {
     scroll-behavior: smooth;
   }
-  
+
 .navbar {
     transition: all 0.4s;
 }
@@ -378,19 +378,34 @@ html {
     color: white;
 }
 
+.navbar-nav > li {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.navbar-toggler {
+    margin-left: auto;
+    padding: .0rem .0rem;
+    font-size: 1.25rem;
+    line-height: 0;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
 /* Change navbar styling on scroll */
 .navbar.active {
-    background: #fff;
+    background: #233237;
     box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .navbar.active .nav-link {
-    color: #555;
+    color: #fff;
 }
 
 .navbar.active .nav-link:hover,
 .navbar.active .nav-link:focus {
-    color: #555;
+    color: #f19f4d;
     text-decoration: none;
 }
 
